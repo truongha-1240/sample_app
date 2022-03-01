@@ -1,0 +1,16 @@
+<footer class="footer">
+  <small>
+    <%= link_to t("rails_title"), Settings.link_rails %>
+    <%= link_to t(".by_author"), Settings.link_author %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t(".new"), Settings.link_news %></li>
+      <li>|</li>
+      <li><%= link_to t("en"), locale: :en %></li>
+      <li><%= link_to t("vi"), locale: :vi %></li>
+    </ul>
+  </nav>
+</footer>
