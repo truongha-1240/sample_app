@@ -3,3 +3,8 @@ link_contact: "http://www.railstutorial.org/#contact"
 link_rails: "http://www.railstutorial.org/"
 link_author: "http://www.michealhartl.com/"
 link_help: "http://www.railstutorial.org/help"
+valid:
+  email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/'
+  length_6: 6
+  length_50: 50
+  length_255: 255
