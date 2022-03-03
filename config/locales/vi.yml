@@ -1,0 +1,44 @@
+vi:
+  en: "Tiếng Anh"
+  vi: "Tiếng Việt"
+  rails_title: "Hướng dẫn Rubu on Rails"
+  base_title: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
+  layouts:
+    header:
+      app_name: "Sample App"
+      menu_home: "Trang chủ"
+      menu_help: "Hướng dẫn"
+      menu_log_in: "Đăng nhập"
+    footer:
+      by_author: "bởi Michael Hartl"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      new: "Tin tức"
+  static_pages:
+    about:
+      title: "Về chúng tôi"
+      welcome: "Về chúng tôi"
+      content: "Giới thiệu về Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
+      contact_page: "Trang liên hệ"
+    contact:
+      title: "Liên hệ"
+      welcome: "Liên hệ"
+      content: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại"
+      contact_page: "Trang liên hệ"
+    help:
+      title: "Hướng dẫn"
+      welcome: "Hướng dẫn"
+      content:
+        intro: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+        tutorial: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      link:
+        help_page: "Trang hướng dẫn Rails Tutorial"
+        tutorial: "Hướng dẫn Rails Tutorial"
+    home:
+      title: "Trang chủ"
+      welcome: "Chào mừng đến với Sample App"
+      content:
+        main: "Đây là trang chủ của"
+        tutorial: "Hướng dẫn Rails Tutorial"
+        sub: "ứng dụng mẫu."
+        sign_up: "Đăng ký ngay!"
