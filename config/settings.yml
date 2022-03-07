@@ -3,6 +3,7 @@ link_contact: "http://www.railstutorial.org/#contact"
 link_rails: "http://www.railstutorial.org/"
 link_author: "http://www.michealhartl.com/"
 link_help: "http://www.railstutorial.org/help"
+link_gravatar: "https://secure.gravatar.com/avatar/"
 valid:
   email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/'
   length_6: 6

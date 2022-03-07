@@ -42,3 +42,17 @@ en:
         tutorial: "Ruby on Rails Tutorial"
         sub: "sample application."
         sign_up: "Sign up now!"
+  users:
+    new:
+      title: "Sign up"
+      form:
+        create_button: "Create my account"
+        password_confirmation: "Confirmation"
+        password: "Password"
+        name: "Name"
+        email: "Email"
+  noti:
+    error:
+      error: "error"
+      the_form_contain: "The forms contains"
+      user_not_found: "User not found"

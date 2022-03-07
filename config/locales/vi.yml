@@ -42,3 +42,17 @@ vi:
         tutorial: "Hướng dẫn Rails Tutorial"
         sub: "ứng dụng mẫu."
         sign_up: "Đăng ký ngay!"
+  users:
+    new:
+      title: "Đăng ký"
+      form:
+        create_button: "Tạo tài khoản"
+        password_confirmation: "Xác nhận mật khẩu"
+        password: "Mật khẩu"
+        name: "Tên"
+        email: "Email"
+  noti:
+    error:
+      error: "lỗi"
+      the_form_contain: "Biểu mẫu chứa"
+      user_not_found: "Không tồn tại người dùng"
