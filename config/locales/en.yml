@@ -9,6 +9,12 @@ en:
       menu_home: "Home"
       menu_help: "Help"
       menu_log_in: "Log in"
+      menu_users: "Users"
+      dropdown_menu:
+        account: "Account"
+        profile: "Profile"
+        settings: "Settings"
+        log_out: "Log out"
     footer:
       by_author: "by Michael Hartl"
       about: "About"
@@ -51,6 +57,17 @@ en:
         password: "Password"
         name: "Name"
         email: "Email"
+  sessions:
+    new:
+      title: "Log in"
+      password: "Password"
+      name: "Name"
+      email: "Email"
+      submit: "Log in"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
+    create:
+      failed_login: "Invalid email/password combination"
   noti:
     error:
       error: "error"
