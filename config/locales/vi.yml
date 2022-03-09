@@ -9,6 +9,12 @@ vi:
       menu_home: "Trang chủ"
       menu_help: "Hướng dẫn"
       menu_log_in: "Đăng nhập"
+      menu_users: "Người dùng"
+      dropdown_menu:
+        account: "Tài khoản"
+        profile: "Hồ sơ"
+        settings: "Cài đặt"
+        log_out: "Đăng xuất"
     footer:
       by_author: "bởi Michael Hartl"
       about: "Về chúng tôi"
@@ -51,6 +57,17 @@ vi:
         password: "Mật khẩu"
         name: "Tên"
         email: "Email"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      password: "Mật khẩu"
+      name: "Tên"
+      email: "Email"
+      submit: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      sign_up_now: "Đăng ký ngay!"
+    create:
+      failed_login: "Thông tin tài khoản hoặc mật khẩu không chính xác"
   noti:
     error:
       error: "lỗi"
