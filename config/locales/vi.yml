@@ -66,6 +66,7 @@ vi:
       submit: "Đăng nhập"
       new_user: "Người dùng mới?"
       sign_up_now: "Đăng ký ngay!"
+      remember_me: "Lưu tài khoản trên thiết bị này"
     create:
       failed_login: "Thông tin tài khoản hoặc mật khẩu không chính xác"
   noti:
