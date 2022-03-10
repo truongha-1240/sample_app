@@ -10,6 +10,7 @@ vi:
       menu_help: "Hướng dẫn"
       menu_log_in: "Đăng nhập"
       menu_users: "Người dùng"
+      hi: "Xin chào"
       dropdown_menu:
         account: "Tài khoản"
         profile: "Hồ sơ"
@@ -91,3 +92,11 @@ vi:
       user_not_permission: "Người dùng không có quyền"
     login:
       needs_login: "Bạn chưa đăng nhập, hãy đăng nhập và thủ lại."
+    account_activation:
+      check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn"
+      success: "Tài khoản được kích hoạt!"
+      invalid: "Liên kết kích hoạt không hợp lệ"
+      title: "Kích hoạt tài khoản"
+      content: "Chào mừng bạn đến với Ứng dụng Mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+      activate_button: "Kích hoạt"
+      message: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."

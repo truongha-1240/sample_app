@@ -1,0 +1,3 @@
+<%= t "layouts.header.hi" %> <%= @user.name %>,
+<%= t "noti.account_activation.content" %>
+<%= edit_account_activation_url(id: @user.activation_token, email: @user.email) %>

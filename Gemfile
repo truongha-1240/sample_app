@@ -6,6 +6,7 @@ gem "bootsnap", ">= 1.4.4", require: false
 gem "bootstrap-sass", "3.4.1"
 gem "config"
 gem "faker", "~> 1.6", ">= 1.6.6"
+gem "figaro"
 gem "i18n", "~> 1.10"
 gem "jbuilder", "~> 2.7"
 gem "pagy"

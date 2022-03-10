@@ -1,0 +1,9 @@
+<h1><%= t "layouts.header.app_name" %></h1>
+<p>
+  <%= t "layouts.header.hi" %>
+  <%= @user.name %>
+</p>
+<p>
+<%= t "noti.account_activation.content" %>
+</p>
+<%= link_to t("noti.account_activation.activate_button"), edit_account_activation_url(id: @user.activation_token, email: @user.email) %>
