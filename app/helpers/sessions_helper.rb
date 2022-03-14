@@ -36,4 +36,17 @@ module SessionsHelper
     cookies.permanent.signed[:user_id] = user.id
     cookies.permanent[:remember_token] = user.remember_token
   end
+
+  def current_user? user
+    user == current_user
+  end
+
+  def redirect_back_or default
+    redirect_to(session[:fowarding_url] || default)
+    session.delete(:fowarding_url)
+  end
+
+  def store_location
+    session[:fowarding_url] = request.original_url if request.get?
+  end
 end

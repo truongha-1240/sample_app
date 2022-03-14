@@ -49,14 +49,28 @@ vi:
         sub: "ứng dụng mẫu."
         sign_up: "Đăng ký ngay!"
   users:
+    form:
+      create_button: "Tạo tài khoản"
+      password_confirmation: "Xác nhận mật khẩu"
+      password: "Mật khẩu"
+      name: "Tên"
+      email: "Email"
+      save_change: "Lưu thay đổi"
     new:
       title: "Đăng ký"
-      form:
-        create_button: "Tạo tài khoản"
-        password_confirmation: "Xác nhận mật khẩu"
-        password: "Mật khẩu"
-        name: "Tên"
-        email: "Email"
+    edit:
+      sub_title: "Cập nhật hồ sơ của bạn"
+      title: "Sửa thông tin"
+      change: "Thay đổi"
+      updated_sucess: "Cập nhật thành công"
+      updated_faild: "Có lỗi xảy ra, cập nhật không thành công"
+    index:
+      title: "Tất cả người dùng"
+    destroy:
+      destroy_success: "Xóa người dùng thành công"
+      destroy_fail: "Thao tác thất bại !"
+      delete: "Xóa"
+      alert: "Bạn chắc chắn muốn xóa chứ ?"
   sessions:
     new:
       title: "Đăng nhập"
@@ -74,3 +88,6 @@ vi:
       error: "lỗi"
       the_form_contain: "Biểu mẫu chứa"
       user_not_found: "Không tồn tại người dùng"
+      user_not_permission: "Người dùng không có quyền"
+    login:
+      needs_login: "Bạn chưa đăng nhập, hãy đăng nhập và thủ lại."

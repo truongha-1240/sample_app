@@ -49,14 +49,28 @@ en:
         sub: "sample application."
         sign_up: "Sign up now!"
   users:
+    form:
+      create_button: "Create my account"
+      password_confirmation: "Confirmation"
+      password: "Password"
+      name: "Name"
+      email: "Email"
+      save_change: "Save changes"
     new:
       title: "Sign up"
-      form:
-        create_button: "Create my account"
-        password_confirmation: "Confirmation"
-        password: "Password"
-        name: "Name"
-        email: "Email"
+    edit:
+      sub_title: "Update your profile"
+      title: "Edit user"
+      change: "Change"
+      updated_sucess: "Profile updated"
+      updated_faild: "Updated faild"
+    index:
+      title: "All users"
+    destroy:
+      destroy_success: "User deleted"
+      destroy_fail: "Deleted fail !"
+      delete: "Delete"
+      alert: "Are you sure?"
   sessions:
     new:
       title: "Log in"
@@ -74,3 +88,6 @@ en:
       error: "error"
       the_form_contain: "The forms contains"
       user_not_found: "User not found"
+      user_not_permission: "User not permission"
+    login:
+      needs_login: "Please log in."
