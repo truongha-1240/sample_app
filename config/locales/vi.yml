@@ -82,8 +82,25 @@ vi:
       new_user: "Người dùng mới?"
       sign_up_now: "Đăng ký ngay!"
       remember_me: "Lưu tài khoản trên thiết bị này"
+      forgot_password: "Quên mật khẩu"
     create:
       failed_login: "Thông tin tài khoản hoặc mật khẩu không chính xác"
+  password_resets:
+    update:
+      error: "không được để trống"
+      success: "Mật khẩu của bạn đã được cập nhật lại!"
+      cant_updated: "Có lỗi xảy ra, thay đổi mật khẩu không thành công"
+    expired: "Liên kết đã hết hạn"
+    invalid_link: "Liên kết không hợp lệ"
+    create:
+      instruction: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+      no_email: "Không tìm thấy địa chỉ email"
+    edit:
+      title: "Đổi mật khẩu"
+      submit: "Lưu mật khẩu"
+    new:
+      title: "Quên mật khẩu"
+      submit: "Xác nhận"
   noti:
     error:
       error: "lỗi"
@@ -100,3 +117,12 @@ vi:
       content: "Chào mừng bạn đến với Ứng dụng Mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
       activate_button: "Kích hoạt"
       message: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
+    password_reset:
+      title: "Thay đổi mật khẩu"
+      to_reset: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      content: "Liên kết này sẽ hết hạn sau hai giờ.
+                Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và
+                mật khẩu của bạn sẽ vẫn như cũ."
+      did_not_request: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình,
+                        vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ"
+      link_will_expire: "Liên kết này sẽ hết hạn sau hai giờ"

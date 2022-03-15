@@ -13,3 +13,5 @@ valid:
 size:
   size_80: 80
   size_50: 50
+time:
+  two_hours: 2
