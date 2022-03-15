@@ -10,6 +10,7 @@ en:
       menu_help: "Help"
       menu_log_in: "Log in"
       menu_users: "Users"
+      hi: "Hi"
       dropdown_menu:
         account: "Account"
         profile: "Profile"
@@ -91,3 +92,11 @@ en:
       user_not_permission: "User not permission"
     login:
       needs_login: "Please log in."
+    account_activation:
+      check_email: "Please check your email to activate your account."
+      success: "Account activated!"
+      invalid: "Invalid activation link"
+      title: "Account activation"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate_button: "Activate"
+      message: "Account not activated. Check your email for the activation link."

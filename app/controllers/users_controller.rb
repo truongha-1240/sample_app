@@ -8,11 +8,11 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(user_params)
+    @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t "static_pages.home.welcome"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "noti.account_activation.check_email"
+      redirect_to root_url
     else
       render :new
     end
