@@ -82,8 +82,25 @@ en:
       new_user: "New user?"
       sign_up_now: "Sign up now!"
       remember_me: "Remember me on this computer"
+      forgot_password: "Forgot password?"
     create:
       failed_login: "Invalid email/password combination"
+  password_resets:
+    update:
+      error: "can't be empty"
+      success: "Your password has been reset"
+      cant_updated: "Has error, update faild"
+    expired: "The link has expired"
+    invalid_link: "Invalid link"
+    create:
+      instruction: "Check your email for further instructions"
+      no_email: "Email address not found"
+    edit:
+      title: "Reset password"
+      submit: "Update password"
+    new:
+      title: "Forgot password"
+      submit: "Submit"
   noti:
     error:
       error: "error"
@@ -100,3 +117,12 @@ en:
       content: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate_button: "Activate"
       message: "Account not activated. Check your email for the activation link."
+    password_reset:
+      title: "Password reset"
+      to_reset: "To reset your password click the link below:"
+      content: "This link will expire in two hours.
+                If you did not request your password to be reset, please ignore this email and
+                your password will stay as it is."
+      did_not_request: "If you did not request your password to be reset,
+                        please ignore this email and your password will stay as it is."
+      link_will_expire: "This link will expire in two hours"
