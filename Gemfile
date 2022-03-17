@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 ruby "2.7.0"
+gem "active_storage_validations"
 gem "bcrypt", "~> 3.1", ">= 3.1.16"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "bootstrap-sass", "3.4.1"
@@ -8,7 +9,9 @@ gem "config"
 gem "faker", "~> 1.6", ">= 1.6.6"
 gem "figaro"
 gem "i18n", "~> 1.10"
+gem "image_processing"
 gem "jbuilder", "~> 2.7"
+gem "mini_magick"
 gem "pagy"
 gem "puma", "~> 5.0"
 gem "rails", "~> 6.1.4", ">= 6.1.4.6"
