@@ -49,6 +49,7 @@ vi:
         tutorial: "Hướng dẫn Rails Tutorial"
         sub: "ứng dụng mẫu."
         sign_up: "Đăng ký ngay!"
+      micropost_feed: "Danh sách bài đăng"
   users:
     form:
       create_button: "Tạo tài khoản"
@@ -72,6 +73,8 @@ vi:
       destroy_fail: "Thao tác thất bại !"
       delete: "Xóa"
       alert: "Bạn chắc chắn muốn xóa chứ ?"
+    show:
+      microposts: "Bài đăng"
   sessions:
     new:
       title: "Đăng nhập"
@@ -126,3 +129,61 @@ vi:
       did_not_request: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình,
                         vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ"
       link_will_expire: "Liên kết này sẽ hết hạn sau hai giờ"
+  datetime:
+    distance_in_words:
+      half_a_minute: "Nửa phút"
+      less_than_x_seconds:
+        zero: "dưới 1 giây"
+        one: "1 giây"
+        other: "#{{count}} giây"
+      x_seconds:
+        one: "1 giây"
+        other: "{{count}} giây"
+      less_than_x_minutes:
+        zero: "ít hơn một phút"
+        one: "1 phút"
+        other: "{{count}} phút"
+      x_minutes:
+        one: "1 phút"
+        other: "{{count}} phút"
+      about_x_hours:
+        one: "khoảng 1 giờ"
+        other: "{{count}} giờ"
+      x_days:
+        one: "1 ngày"
+        other: "{{count}} ngày"
+      about_x_months:
+        one: "khoảng 1 tháng"
+        other: "{{count}} tháng"
+      x_months:
+        one: "1 tháng"
+        other: "{{count}} tháng"
+      about_x_years:
+        one: "khoảng 1 năm"
+        other: "{{count}} năm"
+      over_x_years:
+        one: "hơn 1 năm"
+        other: "{{count}} năm"
+  shared:
+    user_info:
+      view_profile: "xem hồ sơ của tôi"
+      micropost: "Bài đăng"
+    micropost_form:
+      placeholder: "Nhập nội dung..."
+      post_submit: "Đăng"
+  microposts:
+    posted: "Đăng"
+    ago: "trước."
+    create:
+      flash_success: "Bài đăng đã được tạo"
+      flash_error: "Có lỗi xảy ra !!"
+    destroy:
+      success_noti: "Xóa thành công bài đăng"
+      danger_noti: "Xóa thất bại"
+      confirm_delete: "Bạn chắc chứ?"
+    noti:
+      check_user_danger: "Bài đăng không hợp lệ"
+    valid:
+      image: "phải là một định dạng hình ảnh hợp lệ"
+      size_image: "phải bé hơn 5Mb"
+      langer_size_image: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."

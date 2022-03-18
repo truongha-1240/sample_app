@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
   before_save :downcase_email
   before_create :create_activation_digest
@@ -53,6 +54,10 @@ class User < ApplicationRecord
 
   def clear_password_reset
     update_columns(reset_digest: nil, reset_sent_at: nil)
+  end
+
+  def feed
+    microposts
   end
 
   class << self
