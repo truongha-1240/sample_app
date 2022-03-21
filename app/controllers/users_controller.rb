@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   before_action :logged_in_user, except: %i(new create)
-  before_action :find_user_by_id, only: %i(show edit update destroy)
+  before_action :find_user_by_id,
+                only: %i(show edit update destroy following followers)
   before_action :correct_user, only: %i(edit update)
 
   def new
@@ -45,6 +46,20 @@ class UsersController < ApplicationController
       flash[:error] = t "users.destroy.destroy_fail"
     end
     redirect_to users_url
+  end
+
+  def following
+    @title = t ".title"
+    @pagy, @users = pagy @user.following
+
+    render "show_follow"
+  end
+
+  def followers
+    @title = t ".title"
+    @pagy, @users = pagy @user.followers
+
+    render "show_follow"
   end
 
   private
